@@ -58,6 +58,8 @@
 	<array>
 		<string>fetch</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>UIFileSharingEnabled</key>
 	<true/>
 </dict>
