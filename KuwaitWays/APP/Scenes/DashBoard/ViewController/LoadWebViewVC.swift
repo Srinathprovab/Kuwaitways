@@ -61,6 +61,8 @@ class LoadWebViewVC: UIViewController, TimerManagerDelegate {
         //            webview.load(URLRequest(url: url1))
         //        }
         
+        
+        
         // Create a URL
         if let url = URL(string: urlString) {
             
