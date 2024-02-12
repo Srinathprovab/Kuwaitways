@@ -77,10 +77,9 @@ class LoadWebViewVC: UIViewController, TimerManagerDelegate {
             webview.load(request)
         }
         
+        
         NotificationCenter.default.addObserver(self, selector: #selector(nointernet), name: NSNotification.Name("nointernet"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(reloadscreen), name: NSNotification.Name("reloadscreen"), object: nil)
-        
-        
         
         
         let seconds = 120.0
