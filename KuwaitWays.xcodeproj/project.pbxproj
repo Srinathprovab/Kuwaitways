@@ -10,6 +10,8 @@
 		22C09D3391927649DD12339A /* Pods_KuwaitWays_KuwaitWaysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C9E0B9BED9794EF8FA915A /* Pods_KuwaitWays_KuwaitWaysUITests.framework */; };
 		3364A5C0012538C1D2A3D353 /* Pods_KuwaitWays.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2EC2B0F8D64F0942008B14 /* Pods_KuwaitWays.framework */; };
 		39FEC662CA8F1778DEC29519 /* Pods_KuwaitWaysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E686CC8B08925AE721BE7148 /* Pods_KuwaitWaysTests.framework */; };
+		655AFBBD2B860B840071C869 /* Loder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655AFBBA2B860B840071C869 /* Loder.storyboard */; };
+		655AFBBE2B860B840071C869 /* FlightLoderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AFBBC2B860B840071C869 /* FlightLoderVC.swift */; };
 		65D398A62B79E43E00917F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D398A52B79E43E00917F74 /* AppDelegate.swift */; };
 		65D398A82B79E43E00917F74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D398A72B79E43E00917F74 /* SceneDelegate.swift */; };
 		65D398AF2B79E44000917F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D398AE2B79E44000917F74 /* Assets.xcassets */; };
@@ -438,6 +440,8 @@
 /* Begin PBXFileReference section */
 		407CFA8D3D841D6D03F54B87 /* Pods-KuwaitWaysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuwaitWaysTests.release.xcconfig"; path = "Target Support Files/Pods-KuwaitWaysTests/Pods-KuwaitWaysTests.release.xcconfig"; sourceTree = "<group>"; };
 		57F0A437A38F34B192B48473 /* Pods-KuwaitWaysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuwaitWaysTests.debug.xcconfig"; path = "Target Support Files/Pods-KuwaitWaysTests/Pods-KuwaitWaysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		655AFBBA2B860B840071C869 /* Loder.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loder.storyboard; sourceTree = "<group>"; };
+		655AFBBC2B860B840071C869 /* FlightLoderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightLoderVC.swift; sourceTree = "<group>"; };
 		65D398A22B79E43E00917F74 /* KuwaitWays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuwaitWays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D398A52B79E43E00917F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D398A72B79E43E00917F74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -898,6 +902,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		655AFBB82B860B840071C869 /* Loder */ = {
+			isa = PBXGroup;
+			children = (
+				655AFBB92B860B840071C869 /* SB */,
+				655AFBBB2B860B840071C869 /* VC */,
+			);
+			path = Loder;
+			sourceTree = "<group>";
+		};
+		655AFBB92B860B840071C869 /* SB */ = {
+			isa = PBXGroup;
+			children = (
+				655AFBBA2B860B840071C869 /* Loder.storyboard */,
+			);
+			path = SB;
+			sourceTree = "<group>";
+		};
+		655AFBBB2B860B840071C869 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				655AFBBC2B860B840071C869 /* FlightLoderVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 		65D398992B79E43E00917F74 = {
 			isa = PBXGroup;
 			children = (
@@ -962,6 +991,7 @@
 		65D398D62B79E45A00917F74 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				655AFBB82B860B840071C869 /* Loder */,
 				65D398D72B79E45A00917F74 /* Hotel */,
 				65D3993D2B79E45A00917F74 /* Calender */,
 				65D399412B79E45A00917F74 /* DashBoard */,
@@ -2770,6 +2800,7 @@
 				65D39BF32B79E45C00917F74 /* NewMulticityTVCell.xib in Resources */,
 				65D39C4E2B79E45C00917F74 /* RadioButtonTVCell.xib in Resources */,
 				65D39C1C2B79E45C00917F74 /* AddDeatilsOfTravellerTVCell.xib in Resources */,
+				655AFBBD2B860B840071C869 /* Loder.storyboard in Resources */,
 				65D39BD52B79E45C00917F74 /* SelectLanguageTVCell.xib in Resources */,
 				65D398B22B79E44000917F74 /* LaunchScreen.storyboard in Resources */,
 				65D39BD32B79E45C00917F74 /* BookNowTVCell.xib in Resources */,
@@ -3244,6 +3275,7 @@
 				65D39BA22B79E45C00917F74 /* ApplyPromocodeModel.swift in Sources */,
 				65D39B642B79E45C00917F74 /* AboutusViewModel.swift in Sources */,
 				65D39B972B79E45C00917F74 /* MulticityModelData.swift in Sources */,
+				655AFBBE2B860B840071C869 /* FlightLoderVC.swift in Sources */,
 				65D39B702B79E45C00917F74 /* ProcessPassangerDetailModel.swift in Sources */,
 				65D39BBD2B79E45C00917F74 /* PayNowVC.swift in Sources */,
 				65D39B612B79E45C00917F74 /* FlightDetailsViewModel.swift in Sources */,
